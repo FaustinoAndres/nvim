@@ -4,6 +4,6 @@ return {
     priority = 1000,
     config = function()
         vim.cmd.colorscheme("catppuccin")
-        -- vim.o.background("dark")
+        vim.o.background = "dark"
     end,
 }
